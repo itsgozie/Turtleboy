@@ -4,7 +4,6 @@ body {
 
 .container {
   /* width: 80%; */
-  height: 100%;
   text-align: center;
   color: gray;
   padding: 0 10%;
@@ -13,20 +12,20 @@ body {
 header {
   border-bottom: solid;
   border-width: thin;
-  position: absolute;
+  /* position: absolute; */
   }
 
-img {
+.logo {
   width: 100%;
   padding: 20px 0;
 }
 
-nav {
+/* nav {
   display: inline-block;
   width: 250px;
   position: relative;
   right: 0;
-}
+} */
 
 .brand {
   text-align: center;
@@ -34,6 +33,37 @@ nav {
   display:inline-block;
 }
 
-.searchbox {
+/* .searchbox {
 
+} */
+
+.hero {
+  padding: 20px 0;
+}
+
+.top-heading {
+  float: left;
+  width: 45%;
+}
+
+.img-hero {
+  width: 100%;
+}
+
+.ul-side {
+  text-align: left;
+  width: 45%;
+  float: left;
+}
+
+li {
+  list-style: none;
+}
+
+.img-side {
+  width: 20%;
+}
+
+.side-caption {
+  width: 75%;
 }
