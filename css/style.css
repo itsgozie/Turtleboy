@@ -3,7 +3,6 @@ body {
 }
 
 .container {
-  /* width: 80%; */
   text-align: center;
   color: gray;
   padding: 0 10%;
@@ -12,6 +11,7 @@ body {
 header {
   border-bottom: solid;
   border-width: thin;
+  border-color: green;
   /* position: absolute; */
   }
 
@@ -39,10 +39,15 @@ header {
 
 .hero {
   padding: 20px 0;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: orange;
+  float: none;
 }
 
 .top-heading {
   float: left;
+  /* display: inline-block; */
   width: 45%;
 }
 
@@ -50,10 +55,18 @@ header {
   width: 100%;
 }
 
+.side-sec {
+  width: 45%;
+  /* display: inline-block; */
+  float: left;
+}
+
 .ul-side {
   text-align: left;
-  width: 45%;
-  float: left;
+  width: 100%;
+  /* float: left; */
+  /* display: inline-block; */
+  margin-top: 0;
 }
 
 li {
@@ -64,6 +77,14 @@ li {
   width: 20%;
 }
 
+.cap-head {
+  text-align: left;
+}
+
 .side-caption {
   width: 75%;
+}
+
+.kicks {
+  clear: both;
 }
