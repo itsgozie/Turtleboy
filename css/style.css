@@ -38,7 +38,7 @@ header {
 } */
 
 .hero {
-  padding: 20px 0 10px;
+  padding: 20px 0;
   border-bottom-style: solid;
   border-bottom-width: thin;
   border-bottom-color: orange;
@@ -57,6 +57,8 @@ header {
 .side-sec {
   width: 45%;
   display: inline-block;
+  border-left-style: solid;
+  border-left-width: thin;
   /* float: left; */
 }
 
