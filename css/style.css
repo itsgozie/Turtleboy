@@ -38,6 +38,22 @@ header {
 
 } */
 
+.hero:before,
+.hero:after {
+  content: "";
+  display: table;
+}
+
+.hero:after {
+  clear: both;
+}
+
+/* .hero {
+  clear:both;
+  *zoom: 1;
+  }*/
+
+
 .hero {
   padding: 20px 0;
   border-bottom-style: solid;
@@ -47,6 +63,7 @@ header {
 
 .top-heading {
   float: left;
+  padding-right: 15px;
   /* display: inline-block; */
   width: 50%;
 }
@@ -60,11 +77,11 @@ header {
   display: inline-block;
   border-left-style: solid;
   border-left-width: thin;
-  /* float: left; */
+  float: left;
 }
 
 .ul-side {
-  padding-left: 20px;
+  padding-left: 15px;
   text-align: left;
   width: 100%;
   /* float: left; */
